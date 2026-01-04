@@ -3,10 +3,10 @@
   publish = "dist"
 
 [context.production]
-  environment = { VITE_API_URL = "https://your-backend-domain.com/api" }
+  environment = { VITE_API_URL = "https://hfrat-backend.onrender.com" }
 
 [context.deploy-preview]
-  environment = { VITE_API_URL = "https://your-backend-domain.com/api" }
+  environment = { VITE_API_URL = "https://hfrat-backend.onrender.com" }
 
 [[redirects]]
   from = "/*"
